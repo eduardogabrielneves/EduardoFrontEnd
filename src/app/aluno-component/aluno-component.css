@@ -1,0 +1,56 @@
+/* Estilo geral da página */
+body {
+  background-color: #f8f9fa; /* Um cinza bem mais claro */
+}
+
+/* Estilo para o cabeçalho do card da tabela */
+.card-header h2 {
+  font-weight: 500;
+}
+
+/* Tabela com visual mais limpo */
+.table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table thead th {
+  color: #6c757d;
+  font-weight: 500;
+  border-bottom: 1px solid #dee2e6;
+  border-top: 0;
+}
+
+.table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.table td, .table th {
+  border-top: 1px solid #eff2f7; /* Linhas mais sutis */
+}
+
+/* Avatar dos alunos com tema verde */
+.table-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e8f5e9; /* Fundo verde claro */
+  color: #157347; /* Cor do texto verde escuro */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+/* Botões de ação da tabela (Editar/Apagar) */
+.table .btn-sm {
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
